@@ -1,13 +1,25 @@
+body{
+    font-family: "Dancing Script";
+    background-color: #02010a;
+}
+#contenido{
+    width: 900px;
+    margin: 0 auto;
+}
 header{
     background-color: #5b7989;
     border-radius: 10px 10px 0 0;
     color: #FFF;
     position: relative;
+  
 }
 
 header h1{
     text-shadow : 2px 2px #02010a ;
     display: inline-block;
+    padding: 5px;
+    
+
 }
 header nav{
     display: inline-block;
