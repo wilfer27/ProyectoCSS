@@ -2,25 +2,33 @@ body{
     font-family: "Dancing Script";
     background-color: #02010a;
 }
+
 #contenido{
     width: 900px;
     margin: 0 auto;
 }
+
+section{
+    display: grid;
+    width: 100%;
+    }
+
 header{
     background-color: #5b7989;
     border-radius: 10px 10px 0 0;
     color: #FFF;
     position: relative;
-  
 }
 
 header h1{
     text-shadow : 2px 2px #02010a ;
     display: inline-block;
     padding: 5px;
-    
-
 }
+img{
+    box-shadow: 2px 2px #02010a;
+}
+
 header nav{
     display: inline-block;
     float: right;
@@ -37,6 +45,7 @@ header a{
 
 #imagencentral{
     background-color: #82c3a6;
+   
 }
 
 #imagencentral img{
@@ -44,5 +53,38 @@ header a{
    width: 90%;
    margin-left: auto;
    margin-right: auto;
-   padding: 10px;
+   
+}
+#imagensecundaria{
+    border: 1px;
+    background-color: #d5c75f;
+    display: flex;  
+}
+
+#imagensecundaria img{
+    width: 100%;
+}
+footer{
+    border-radius: 0 0 10px 10px;
+    width: 900px;
+    background-color: #5b7989;
+    border-radius: 0 0 10px 10px;
+    background-color: #c6d5c5;
+    position: absolute;
+    
+}
+
+div .fot{
+    position: relative;
+    width: 25%;
+   float: left;
+   text-align: center;
+}
+
+.fot p{
+    
+    padding: 10px;
+}
+.activo{
+    text-decoration: underline;
 }
